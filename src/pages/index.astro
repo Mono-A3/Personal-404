@@ -1,13 +1,20 @@
 ---
-
+const title = 'Error 404- Página No Encontrada - Andres Araque'
+const description = 'Página de error 404 personalizada creada por Andrés Stiven Araque. Encuentra un diseño único y divertido que te redirige a la página principal o te ayuda a explorar más del sitio web. ¡No te pierdas en el camino!'
+const keywords = 'Andres Araque, Error 404, Desarrollo web, Astro'
 ---
 
 <!DOCTYPE html>
 <html lang="es" >
 <head>
   <meta charset="UTF-8">
-  <title>Error 404 - Página No Encontrada</title>
-  <link rel="stylesheet" href="./style.css">
+  <meta name="description" content={description}>
+  <meta name="keywords" content={keywords}>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="canonical" href="https://andresaraque.com/404" />
+
+  <meta name="generator" content={Astro.generator} />
+  <title>{title}</title>
 
 </head>
 <body>
